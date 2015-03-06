@@ -11,6 +11,8 @@ variety of data types: the Generalised Linear Model (GLM). Many common statistic
 
 The course was designed and presented as a six week elective statistics course for graduate students in the neuroscience program at the University of Tübingen, in January 2015. Lectures were presented as a collection of IPython Notebooks. While the notebooks are (we hope) well documented, they *are* lecture materials rather than a textbook. As such, some content might not be self-explanatory. 
 
+[You can find the notebooks on the nbviewer platform here](http://nbviewer.ipython.org/github/tomwallis/glm-intro/blob/master/index.ipynb)
+
 We chose to do the course in Python because 
 
 1. It is a general purpose programming language and thus more versatile than e.g. [R](http://cran.r-project.org/). Neuroscientists can use Python to not only analyse data but also to e.g. interface with hardware, [conduct behavioural experiments](http://www.psychopy.org/), etc. 
