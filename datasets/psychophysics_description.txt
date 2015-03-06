@@ -1,0 +1,33 @@
+# Image correlates of crowding in natural scenes
+
+Source: http://www.journalofvision.org/content/12/7/6
+
+## Description
+
+This dataset consists of a number of trials (rows) for three observers in a psychophysical experiment. Observers detected the location of a patch of texture embedded in a natural scene, that could be presented above, right, below or left of fixation. The primary dependent variable of interest is whether the observer got the trial correct or incorrect.
+
+    Variable    Description
+
+    observer    TW = 1, PB = 2, N1 = 3
+    trialNum    In chronological order, for each observer
+    blockNum    block of trials
+    eccent      2, 4 or 8 degrees 
+    patchSize   log10(degrees)
+    correct     trial correct (1) or incorrect (0)
+    targetLoc   location of the target relative to fixation (1-4, corresponding to up, right, down, left)
+    responseLoc location of the observer's response (1-4, corresponding to up, right, down, left)
+    imageOri    orientation of the image segment presented (1-4 corresponding to upright, 90 deg clockwise, upside-down and 90 degrees CCW)
+
+
+## Analysis
+
+The dataset can be analysed using logistic regression, and includes predictors that can be treated as continuous (e.g. patch size, eccentricity, trial number) and categorical predictors (e.g. observer, target location, image orientation).
+
+## Source
+
+This is part of the dataset from:
+
+Wallis, T. S. A., & Bex, P. J. (2012). Image correlates of crowding in natural scenes. Journal of Vision, 12(7), 1–19,6.
+
+The full dataset can be found [here](http://www.journalofvision.org/content/12/7/6/suppl/DC1).
+

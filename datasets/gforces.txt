@@ -1,0 +1,9 @@
+Subject	Age	Signs
+JW	39	0
+JM	42	1
+DT	20	0
+LK	37	1
+JK	20	1
+MK	21	0
+FP	41	1
+DG	52	1

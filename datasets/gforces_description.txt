@@ -1,0 +1,25 @@
+# G-Induced Loss of Consciousness
+
+Source: http://www.statsci.org/data/general/gforces.html
+
+Keywords: binary data, binomial regression
+
+## Description
+
+Military pilots sometimes black out when their brains are deprived of oxygen due to G-forces during violent maneuvers. Glaister and Miller (1990) produced similar symptoms by exposing volunteers’ lower bodies to negative air pressure, likewise decreasing oxygen to the brain. The data lists the subjects' ages and whether they showed syncopal blackout related signs (pallor, sweating, slow heartbeat, unconsciousness) during an 18 minute period.
+
+    Variable        Description
+    Subject     Initials of the subject's name
+    Age     Subject's age in years
+    Signs       Whether subject showed blackout-related signs (0=No, 1=Yes)
+
+## Source
+
+Glaister and Miller (1990). Aviation, Space and Environmental Medicine.
+
+Hamilton, L. C. (1992). Regression with Graphics. Duxbury, page 243.
+
+## Analysis
+
+Regress binary response on one continuous covariate. Not statistically significant but easy to understand.
+
