@@ -28,3 +28,19 @@ Note two things:
 1. *This is not a basic statistics course*. You should be reasonably familiar with things like t-tests and ANOVA before proceeding.
 
 Where content is erroneous, unclear or buggy, please tell us at our [GitHub repository](https://github.com/tomwallis/glm-intro) 
+
+### Setting up the environment we used
+
+I've exported an `environment.yml` file into this repo. According to [the conda docs](http://conda.pydata.org/docs/using/envs.html), you should be able to recreate our environment for the course using this file. 
+
+> Make a new directory, change to the directory, and copy the environment.yml file into it.
+
+    mkdir stats_course
+    cd stats_course
+    cp environment.yml
+
+> In the same directory as the environment.yml file, create the new environment:
+
+    conda env create
+
+Too easy!
